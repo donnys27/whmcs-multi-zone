@@ -15,7 +15,7 @@ globals:
   monitor_user: ${settings.monitor_user}
   monitor_pass: ${settings.monitor_pass}
   cluster_name: ${settings.cluster_name:false}
-  db_cluster_url: https://raw.githubusercontent.com/jelastic-jps/mysql-cluster/v2.4.0
+  db_cluster_url: https://raw.githubusercontent.com/donnys27/whmcs-db-cluster/main
   
 onInstall:
   - if ('${globals.pre_install}' == 'true'):
